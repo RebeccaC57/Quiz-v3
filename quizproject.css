@@ -74,7 +74,6 @@ a{
 .footer1 {
   grid-area: footer1;
   background-color: #f1f1f1;
-  padding: 10px;
   text-align: center;
   font-family: 'Righteous', cursive;
   font-size: 2rem;
@@ -83,12 +82,20 @@ a{
 .footer2 {
   grid-area: footer2;
   background-color: #f1f1f1;
-  padding: 10px;
   text-align: center;
   font-family: 'Righteous', cursive;
   font-size: 2rem;
+  padding-right: 200px;
 }
 
+#hints :hover{ 
+  background-color: #313639;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 #question {
   font-size: 2em;
@@ -110,20 +117,25 @@ a{
   background-color:rgba(0,0,0,0.8);   
 }
 
+.footer2 p{
+  padding: 60px;
+}
+
+
 #message {
-    width:80%;
-    min-width:400px;
-    padding:20px;
-    background-color:#313639;
-    color:white;
-    text-align:center;
-    font-size:4em;
-    font-weight:bold;
-    /* vertically and horizontally center the text */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width:80%;
+  min-width:400px;
+  padding:20px;
+  background-color:#313639;
+  color:white;
+  text-align:center;
+  font-size:4em;
+  font-weight:bold;
+  /* vertically and horizontally center the text */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Desktop Version */
@@ -137,3 +149,5 @@ a{
   height: 90vh;
   }
 } /*media*/
+
+s
